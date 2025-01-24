@@ -11,7 +11,7 @@ public class AppInitV1Servlet implements AppInit{
 
         //순수 서블리 코드 등록
         ServletRegistration.Dynamic helloServlet =
-                servletContext.addServlet("helloServoet", new HelloServlet());
+                servletContext.addServlet("helloServlet", new HelloServlet());
         helloServlet.addMapping("/hello-servlet");
 
     }
